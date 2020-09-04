@@ -100,7 +100,7 @@ textarea {
    /* --- Header Styles --- */
 
    header {
-
+    padding: 15px 0;
    }
 
    header .content-wrapper {
@@ -108,6 +108,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 
    }
 
    header nav {
@@ -115,18 +116,36 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
+    padding: 15px 0;
    }
 
    header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 45%;
    }
 
+   header nav ul li {
+     padding: 20px 20px;
+   }
+
+
+   .header-divider {
+     width: 60%;
+     border: 2px solid grey;
+   }
    /* --- Footer Styles --- */
 
-   footer .social-icons {
+   footer .content-wrapper {
+     width: 55%;
+   }
 
+   footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    /* ------------- Mobile - Homepage Styles ---------- */
@@ -148,12 +167,23 @@ textarea {
    .features {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
    }
 
-   article {
+   .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 50%;
+   }
 
+   .features h2 {
+     width: 85%;
+   }
+
+   .features article {
+    
    }
 
    .fontawesome-icon {
@@ -170,32 +200,31 @@ textarea {
    .reviews {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
+    width: 90%;
    }
 
+   .reviews h3 {
+     width: 80%;
+   }
    .company-example {
 
    }
 
    /* Footer  */
 
-   .footer-content {
-
-   }
-
    address .contact {
 
    }
 
-   /* footer .social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   } */
+   footer .social {
+    
+   }
 
    footer .social-icons {
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    }
 
    .copyright {
