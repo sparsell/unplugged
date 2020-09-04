@@ -91,7 +91,10 @@ textarea {
 
    header, 
    footer {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    /* --- Header Styles --- */
@@ -101,25 +104,52 @@ textarea {
    }
 
    header .content-wrapper {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /* --- Footer Styles --- */
+
+   footer .social-icons {
 
    }
 
    /* ------------- Mobile - Homepage Styles ---------- */
 
    .hero-area {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    aside {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    .features {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    article {
@@ -131,11 +161,17 @@ textarea {
    }
 
    .features-item-desc {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    .reviews {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    .company-example {
@@ -152,12 +188,50 @@ textarea {
 
    }
 
-   .social-icons {
+   /* footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } */
+
+   footer .social-icons {
 
    }
 
    .copyright {
-     
+
+   }
+
+   /* ------------- Mobile - About Styles ---------- */
+
+   .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   /* ------------- Mobile - FAQ Styles ---------- */
+
+   .faq-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
 /* ==========================================================================
