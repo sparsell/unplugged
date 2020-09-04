@@ -366,6 +366,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+   /* --- Tablet styles --- */
+@media only screen and (min-width: 768px) {
+
+}
+   /* --- Desktop styles --- */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
