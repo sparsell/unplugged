@@ -369,11 +369,72 @@ textarea {
    /* --- Tablet styles --- */
 @media only screen and (min-width: 768px) {
 
-  .features .features-items {
-    width: 85%;
-  }  
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
 
+header {
 
+}
+
+header .content-wrapper {
+  width: 85%;
+}
+
+header nav {
+  width:
+}
+
+header nav ul {
+
+}
+
+  .header-divider {
+    display: none;
+  }
+
+aside .content-wrapper {
+  margin: 50px 0;
+}
+
+aside .content-wrapper .form-description, aside .content-wrapper .form {
+  width: 35%;
+  margin: 0;
+}
+
+.features h2 {
+
+}
+
+.features .features-item-desc {
+  width: 85%;
+}  
+
+.reviews h2 {
+  
+}
+
+.reviews .company-example {
+width: 40%;
+}
+
+footer .content-wrapper {
+  width:;
+  margin: 100px 0;
+}
+
+.footer-content {
+
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  width:
+}
 
 }
    /* --- Desktop styles --- */
