@@ -526,13 +526,44 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
 
   .content-wrapper {
-    max-width: 640px;
+    max-width: 960px;
   }
 
-  .features .features-items {
-    width: 80%;
-  }  
+  .hero-area h1 {
+    width:
+  }
+
+  .aside .content-wrapper .form-desc{
+    justify-content:
+  }
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
+  width: ;
 }
+
+features h2 {
+  width: 
+}
+
+.features article {
+  flex-basis: 
+}
+
+.reviews article div {
+  width: 
+}
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width:
+}
+
+.faq h2 {
+  width: 100%;
+}
+
+/* ======================== end Desktop styles ================== */
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
