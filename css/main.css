@@ -530,7 +530,7 @@ footer .copyright {
   }
 
   .hero-area h1 {
-    width:
+    width: 67%;
   }
 
   .aside .content-wrapper .form-desc{
@@ -539,24 +539,24 @@ footer .copyright {
 
   aside .content-wrapper .form-description, 
   aside .content-wrapper .form {
-  width: ;
+  width: 33%;
 }
 
-features h2 {
-  width: 
+.features h2 {
+  width:88%; 
 }
 
 .features article {
-  flex-basis: 
+  flex-basis: 160px;
 }
 
-.reviews article div {
-  width: 
+.reviews .company-example {
+  width: 43%;
 }
 
 .mission h2,
 .contact-section .content-wrapper h2 {
-  width:
+  width:100%;
 }
 
 .faq h2 {
