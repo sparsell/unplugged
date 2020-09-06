@@ -442,7 +442,7 @@ aside .content-wrapper .form {
   margin: 0;
 }
 
-.features h2 {
+.features article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -451,12 +451,12 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-desc {
-  width: 85%;
+  width: 50%;
 }  
 
 .reviews h2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .reviews .company-example {
@@ -470,7 +470,7 @@ footer .content-wrapper {
 
 .footer-content {
 display: flex;
-justify-content: center;
+justify-content: center; /*SK has space-between */
 align-items: center;
 }
 
@@ -485,6 +485,42 @@ footer .copyright {
 .faq-section {
   flex-basis: 200px;
 }
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.mission-content p {
+  width: 45%;
+}
+
+.contact-section .content-wrapper {
+  width: 80%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* FAQ Page ========================= */
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-question {
+  /* flex-basis: 45%; */
+}
+
+.faq h3 {
+  width: 100%;
+}
+
 }
    /* --- Desktop styles --- */
 @media only screen and (min-width: 1200px) {
