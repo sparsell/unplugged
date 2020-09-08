@@ -87,7 +87,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* ------------- Base Header - Footer Styles ---------- */
+/*   General Styles   */
+
+html {
+
+}
+
+body {
+
+
+}
+
+ul, 
+ol {
+
+}
+
+a {
+
+}
+
+h2 {
+
+}
+
+h3,
+h4 {
+
+}
+
+p {
+
+}
+
+img {
+
+}
+
+figure {
+
+}
+  
+address {
+
+}
+
+.content-wrapper {
+
+}
+
+/* ------------- Base Header - Footer Styles ---------- */
 
   .content-wrapper {
     width: 90%;
