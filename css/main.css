@@ -98,6 +98,7 @@ body {
   font-size: 1em;
   line-height: normal;
   text-align: left;
+  color: #e2e3ed;
 
 }
 
@@ -319,6 +320,7 @@ margin: 50px 0;
     flex-flow: row wrap;
     width: 90%;
     padding: 20px;
+    background: #2a423a;
    }
 
    .reviews h2 {
