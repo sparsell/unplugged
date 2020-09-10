@@ -207,6 +207,7 @@ margin: 50px 0;
    footer .content-wrapper {
      width: 55%;
      margin: 50px 0;
+     background: #202322
    }
 
    footer .contact {
@@ -248,6 +249,11 @@ margin: 50px 0;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 20px;
+   }
+
+   aside .content-wrapper {
+      margin-bottom: 25px;
    }
 
    .features {
@@ -337,6 +343,7 @@ margin: 50px 0;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: #527158;
    }
 
    .contact-section {
@@ -344,6 +351,7 @@ margin: 50px 0;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: #2a423a;
    }
 
    /* ------------- Mobile - FAQ Styles ---------- */
@@ -363,6 +371,33 @@ margin: 50px 0;
     align-items: center;
     flex-flow: row wrap;
    }
+
+
+   aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
 /* ==========================================================================
    Helper classes
